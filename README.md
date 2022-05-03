@@ -13,6 +13,8 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git commit -m "Phrase_explication_détaillée_du_commit" :** Ajouter les fichiers de l'index dans un commit
 - **git commit -am "Phrase_explication" :** ajouter les fichiers au repositery, directement sans le add si le fichier est déjà ajouté - update de fichiers
 - **git log :** Voir l'historique des modifications du commit sous forme de liste
+- **git log --author="John :** Voir l'historique après ou avant une certaine date
+- **git log --author="John" :** Retrouver l'auteur d'un commit
 - **git checkout [sha_du_commit] :** se positionner sur un ancien commit - attention le retour à un commit efface les commits les plus récents - si push après retour
 - **git checkout master :** retour au commit principal - le dernier
 - **git clone [https_ssh_adresse_du_repositery_github] :** rapatrier / clôner les sources d'un remote github vers un ordinateur local
@@ -55,7 +57,7 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git config --list :** lister la config
 - **git config --global color.ui false :** desactive les couleurs
 - **git config --global color.ui false :** desactive les couleurs
-
+- **git config --global --edit :** Permet d'éditer la config git en local -> [alias] config pour raccourcis (Ex: aa = add -all, co = checkout, st = status
 ## Commandes terminal
 - **mkdir :** créer un répertoire
 - **rm -rf :** effacer un dossier et ses fichiers (tous même les protégés sans alerte)
@@ -125,3 +127,6 @@ Une fois les tests effectués et les contenus validés sur cette ou ces branches
 ### Mettre à jour GIT
 - **git version :** vérifie la version installée
 - Sur MAC, télécharger le dernier dmg ou utiliser homebrew
+	
+	
+https://git-scm.com/
